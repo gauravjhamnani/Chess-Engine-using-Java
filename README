@@ -1,0 +1,31 @@
+CHESS ENGINE USING JAVA
+
+This chess engine has been developed using bitboards. It supports all the rules of chess
+except castling and em-passant.
+
+MiniMax game algorithm with alpha-beta pruning using depth-first search is used 
+for search algorithm.
+
+Evaluation is done using Material Balance, positional values, Mobility.
+
+This Engine supports UCI protocol and can be intergrated with any GUI that supports
+UCI. This has been tested with Arena 3.5.1 
+
+Steps to run the Chess Engine
+
+1) Build the java files and export the code to generate runnable JAR file
+2) Install Arena 3.5.1 from web
+   This is a windows software. To run on linux, use wine
+3) Now open Arena
+4) Link the JAR file generated to Arena
+   Engines>Manage>Details>New>select the jar file>Apply
+5) Load the Engine
+   Engines>Load Engine>choose the Engine>Load
+6) Now you are ready to play the game with the Engine
+   File>New
+
+The code is tested using Arena 3.5.1 in a linux machine using wine.
+
+PS : Make sure you have java installed in your machine and path has been properly specified.
+
+ 
